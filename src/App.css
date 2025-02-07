@@ -1,0 +1,58 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-size: 16px;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: #ecebeb;
+    color: #161515;
+  }
+  
+  section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .contact-box {
+    background: #fff;
+    padding: 2rem;
+  }
+  
+  .contact-box h1 {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .input-box input {
+    width: 100%;
+    padding: 10px 15px;
+    color: #161515;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    margin-bottom: 1rem;
+  }
+  
+  .select-input {
+    width: 100%;
+    padding: 10px 15px;
+    color: #161515;
+    border-radius: 5px;
+    border: 1px solid #eee;
+    margin-bottom: 1rem;
+  }
+  
+  button {
+    background: #eee;
+    border: 1px solid #eee;
+    padding: 15px;
+    margin-bottom: 1rem;
+    width: 100%;
+    border-radius: 5px;
+    font-size: 1rem;
+  }
